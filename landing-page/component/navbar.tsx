@@ -11,7 +11,10 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="relative bg-gradient-to-r from-[#3f0c01] via-[#631405] to-[#3f0c01]">
+    <nav className="relative" style={{
+      background: 'linear-gradient(90deg, #3f0c01 0%, #631405 50%, #3f0c01 100%)',
+      backgroundColor: '#631405'
+    }}>
       {/* Navbar Content */}
       <div className="relative z-10 mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20 relative">

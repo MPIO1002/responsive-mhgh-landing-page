@@ -2,7 +2,10 @@ import Image from "next/image";
 
 const Footer = () => {
     return (
-        <footer className="w-full bg-gradient-to-r from-[#3f0c01] via-[#631405] to-[#3f0c01] flex flex-col items-center pt-6 pb-2 md:pt-8 md:pb-4 relative overflow-hidden z-40 px-4">
+        <footer className="w-full flex flex-col items-center pt-6 pb-2 md:pt-8 md:pb-4 relative overflow-hidden z-40 px-4" style={{
+            background: 'linear-gradient(90deg, #3f0c01 0%, #631405 50%, #3f0c01 100%)',
+            backgroundColor: '#631405'
+        }}>
             {/* Logo và tên game */}
             <div className="flex flex-col md:flex-row items-center justify-center gap-2 md:gap-4 mt-4 md:mt-6 mb-2 md:mb-4 w-full">
                 <div className="flex flex-row items-center justify-center w-full">
